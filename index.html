@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table border="2px solid black">
+        <h3>Employee Table</h3>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>Johan</td>
+            <td>24</td>
+            <td>20,000</td>
+        </tr>
+        <tr>
+            <td>Adam</td>
+
+            <td>31</td>
+            <td>35,000</td>
+        </tr>
+        <tr>
+            <td>Rihan</td>
+            <td>27</td>
+            <td>32,000</td>
+        </tr>
+    </table>
+
+    <h3>Row-span and clomn-span</h3>
+    <table border="2px solid black">
+        <tr>
+            <th>Heading</th>
+            <th>Heading</th>
+            <th>Heading</th>
+            <th>Heading</th>
+           
+        </tr>
+        <tr>
+            <td rowspan="4">span row</td>
+            <td colspan="3">span columns</td>
+        </tr>
+        <tr>
+            <td colspan="2">span coulmn</td>
+            <td rowspan="3">span both</td>
+        </tr>
+        <tr>
+            <td rowspan="2">span row</td>
+            <td>span columns</td>  
+           </tr>
+        <tr>
+            <td>span both</td>
+        </tr>
+    </table>
+    <h3>color-columns and row span</h3>
+    <table border="4px solid black">
+        <tr>
+            <td bgcolor="pink">Logo</td>
+            <td colspan="3" bgcolor="yellow">Top Menu</td>
+        </tr>
+        <tr>
+            <td rowspan="2" bgcolor="yellow">Side Menu</td>
+            <td bgcolor="green">World News</td>
+            <td bgcolor="green">Financial</td>
+          
+          <td rowspan="3" bgcolor="pink">List of Ads</td>  
+        </tr>
+        <tr>
+            <td bgcolor="green">Technology</td>
+            <td bgcolor="green">Sports</td>
+        </tr>
+        <tr>
+            <td colspan="4" bgcolor="gray">Footer</td>
+        </tr>
+    </table>
+    <center>
+        <h3>box</h3>
+        <table border="2px solid black">
+            <tr>
+                <td bgcolor="green">structure1</td>
+                <td rowspan="2" colspan="2" bgcolor="red">structure2</td>
+                
+                <td bgcolor="green">structure4</td>
+            </tr>
+            <tr>
+                <td bgcolor="green">structure5</td>
+                
+                <td bgcolor="green">structure8</td>  
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2" bgcolor="red">structure1</td>
+                
+                <td bgcolor="green">structure3</td>
+
+                <!-- <table> -->
+                    <tr>
+                        <td bgcolor="blue">a</td>
+                        <td bgcolor="blue">b</td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="blue">c</td>
+                        <td bgcolor="blue">d</td>
+                    </tr>
+                <!-- </table> -->
+                </tr>
+            <tr>
+                
+                <td bgcolor="green">structure1</td>
+                <td bgcolor="green">structure1</td>
+            </tr>
+            
+        </table>
+    </center>
+           
+       
+       
+       
+</body>
+</html>
